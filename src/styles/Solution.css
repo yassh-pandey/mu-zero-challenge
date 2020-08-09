@@ -1,0 +1,39 @@
+.Solution_Wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.Solution_Wrapper p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #28a745;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    font-weight: 600;
+}
+.Solution_Wrapper .solutionText p{
+    margin-top: 0px;
+    padding: 0.4rem 0px;
+    font-size: 1.1rem;
+    font-weight: 100;
+    color: black;
+}
+.Solution_Wrapper::after{
+    position: absolute;
+    content: "";
+    width: 0px;
+    border-left: 1.8px dashed #28a745;
+    top: 2rem;
+    bottom: 1rem;
+    left: 60px;
+}
+.Solution_Wrapper::before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #28a745;
+    border-radius: 5px;
+    top: calc(2rem - 5px);
+    left: 56px;
+}

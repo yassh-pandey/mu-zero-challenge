@@ -1,0 +1,27 @@
+.LeftPane_Wrapper{
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+.LeftPane_Wrapper .HeaderContainer{
+    grid-row: 1 / span 1;
+    grid-column: 1 / -1;
+}
+.LeftPane_Wrapper .QuestionContainer{
+    grid-row: 2 / span 5;
+    grid-column: 1 / -1;
+    box-shadow: -1px 1px 2px rgba(1,1,1,0.2);
+}
+.LeftPane_Wrapper .SolutionContainer{
+    grid-row: 7 / span 5;
+    grid-column: 1 / -1;
+    box-shadow: -1px 1px 2px rgba(1,1,1,0.2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.LeftPane_Wrapper .NabigateQuestionsContainer{
+    grid-row: 12 / span 1;
+    grid-column: 1 / -1;
+}

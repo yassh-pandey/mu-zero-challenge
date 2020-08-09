@@ -1,0 +1,29 @@
+.Header_Wrapper{
+    height: 100%;
+    background-color: rgb(246,246,246);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Header_Wrapper > *{
+    margin: 0px 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+.Header_Wrapper .button{
+    background-color: rgb(226,226,226);
+    color: black;
+    width: 70px;
+    padding: 0.5rem 0px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.Header_Wrapper .Subject{
+    margin-right: 0.5rem;
+    color: #1e88e5;
+}
+.Header_Wrapper .Predicate{
+    margin-left: 0rem;
+}
