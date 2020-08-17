@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### This webapp is not responsive, I did not write media queries for this
 
+## Design Specification image provided (to replicate the UI)
+![mu-zero-design-specification](https://github.com/yassh-pandey/mu-zero-challenge/blob/master/src/DesignSpecification.png)
 ## Available Scripts
 
 In the project directory, you can run:
