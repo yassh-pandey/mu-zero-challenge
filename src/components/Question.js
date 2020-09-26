@@ -1,4 +1,4 @@
-import React, {useState, useRef} from 'react'
+import React, {useRef} from 'react'
 import '../styles/Question.css'
 import { Icon } from '@material-ui/core';
 function Question({setOptionSelected}) {

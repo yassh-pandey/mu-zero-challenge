@@ -1,6 +1,8 @@
 import React, {useRef, useState, useEffect, memo} from 'react'
 
 function RoundButton({text, roundButtonId, roundButtonsSelectedState, setRoundButtonsSelectedState}) {
+    const [roundBtnId, setRoundBtnId] = useState();
+    const roundButtonRef = useRef();
     useEffect(()=>{
         setRoundBtnId(roundButtonId);
     }, [])
@@ -20,8 +22,7 @@ function RoundButton({text, roundButtonId, roundButtonsSelectedState, setRoundBu
             return ;
         }
     })
-    const [roundBtnId, setRoundBtnId] = useState();
-    const roundButtonRef = useRef();
+    
     const roundButtonClicked = (e)=>{
         const newState = roundButtonsSelectedState.map(item=>{
             if(item.roundButtonId===roundBtnId){
